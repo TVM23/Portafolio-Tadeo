@@ -19,9 +19,9 @@ const Header = () => {
             {/*  import desktop Nav.jsx from components & button */}
             <div className="items-center hidden gap-8 xl:flex">
                 <Nav />
-                <Link href="/contact">
-                    <Button>Download CV</Button>
-                </Link>
+                    <a href="/CV-Tadeo_Vazquez_Manzo.pdf" download="CV-Tadeo_Vazquez_Manzo.pdf">
+                        <Button>Download CV</Button>
+                    </a>
             </div>
 
             {/* nav for mobile devices */}

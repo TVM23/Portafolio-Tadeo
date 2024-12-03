@@ -49,9 +49,9 @@ const MobileNav = () => {
                         </Link>
                     );
                 })}
-                        <Link href="/contact">
+                        <a href="/CV-Tadeo_Vazquez_Manzo.pdf" download="CV-Tadeo_Vazquez_Manzo.pdf">
                             <Button>Download CV</Button>
-                        </Link>
+                        </a>
             </nav>
         </SheetContent>
     </Sheet>
