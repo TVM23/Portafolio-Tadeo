@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2015", // Especifica la versión mínima de JavaScript
+    "lib": ["es2015", "dom"], // Incluye los tipos de ES2015 y el DOM (si estás en un navegador)
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+
+//{
+  //"compilerOptions": {
+    //"paths": {
+      //"@/*": ["./*"]
+    //}
+  //}
+//}
